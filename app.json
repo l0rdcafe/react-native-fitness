@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "react-native-fitness",
+    "description": "Triathlon tracker",
+    "slug": "tri-fitness",
+    "privacy": "public",
+    "sdkVersion": "30.0.0",
+    "platforms": ["ios", "android"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "org.tri-fitness.exp",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "org.tri-fitness.exp"
+    }
+  }
+}
